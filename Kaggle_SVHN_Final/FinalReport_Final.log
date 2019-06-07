@@ -1,0 +1,337 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 APR 2017 17:47
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**FinalReport_Final.tex
+(./FinalReport_Final.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip43
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/abstract/abstract.sty
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip44
+\absleftindent=\skip45
+\absrightindent=\skip46
+\absparindent=\skip47
+\absparsep=\skip48
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen103
+\ttl@minus=\dimen104
+\ttl@toksa=\toks14
+\titlewidth=\dimen105
+\titlewidthlast=\dimen106
+\titlewidthfirst=\dimen107
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/block.tss
+File: block.tss 2016/03/15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen108
+\Gin@req@width=\dimen109
+)
+(./FinalReport_Final.aux)
+\openout1 = `FinalReport_Final.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 33.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pplx.fd
+File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
+)
+\big@size=\dimen110
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen111
+\scratchbox=\box27
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen112
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
+\everyMPtoPDFconversion=\toks17
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 34.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 34.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 34.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 34.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 34.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 34.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 38.
+ [1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<train_first10.png, id=10, 1445.4pt x 144.54pt>
+File: train_first10.png Graphic file (type png)
+ <use train_first10.png>
+Package pdftex.def Info: train_first10.png used on input line 52.
+(pdftex.def)             Requested size: 227.62204pt x 22.76074pt.
+
+[2 <./train_first10.png>]
+LaTeX Font Info:    Try loading font information for OMS+pplx on input line 65.
+
+LaTeX Font Info:    No file OMSpplx.fd. on input line 65.
+
+
+LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 65.
+
+[3] [4] [5]
+<Accuracy_conv32_5x5_conv64_5x5_fc1024_all_dropout0_25.pdf, id=26, 433.62pt x 2
+89.08pt>
+File: Accuracy_conv32_5x5_conv64_5x5_fc1024_all_dropout0_25.pdf Graphic file (t
+ype pdf)
+ <use Accuracy_conv32_5x5_conv64_5x5_fc1024_all_dropout0_25.pdf>
+Package pdftex.def Info: Accuracy_conv32_5x5_conv64_5x5_fc1024_all_dropout0_25.
+pdf used on input line 100.
+(pdftex.def)             Requested size: 227.62204pt x 151.74721pt.
+
+<DropoutComparison.png, id=27, 758.3532pt x 291.489pt>
+File: DropoutComparison.png Graphic file (type png)
+
+<use DropoutComparison.png>
+Package pdftex.def Info: DropoutComparison.png used on input line 106.
+(pdftex.def)             Requested size: 227.62204pt x 87.49184pt.
+
+<filtersizecomparison.png, id=28, 648.9846pt x 483.2454pt>
+File: filtersizecomparison.png Graphic file (type png)
+
+<use filtersizecomparison.png>
+Package pdftex.def Info: filtersizecomparison.png used on input line 112.
+(pdftex.def)             Requested size: 227.62204pt x 169.49236pt.
+
+<comparefcunits.png, id=29, 694.7556pt x 489.9906pt>
+File: comparefcunits.png Graphic file (type png)
+ <use comparefcunits.png>
+Package pdftex.def Info: comparefcunits.png used on input line 118.
+(pdftex.def)             Requested size: 227.62204pt x 160.53104pt.
+
+<comparinglayerdepth.png, id=30, 696.6828pt x 495.7722pt>
+File: comparinglayerdepth.png Graphic file (type png)
+
+<use comparinglayerdepth.png>
+Package pdftex.def Info: comparinglayerdepth.png used on input line 124.
+(pdftex.def)             Requested size: 227.62204pt x 161.97888pt.
+
+<comparingbatchnorm.png, id=31, 750.6444pt x 269.808pt>
+File: comparingbatchnorm.png Graphic file (type png)
+
+<use comparingbatchnorm.png>
+Package pdftex.def Info: comparingbatchnorm.png used on input line 130.
+(pdftex.def)             Requested size: 227.62204pt x 81.81169pt.
+ [6 <./Accuracy_conv32_5x5_conv64_5x5_fc1024_all_dropout0_25.pdf>] [7 <./Dropou
+tComparison.png> <./filtersizecomparison.png>]
+[8 <./comparefcunits.png> <./comparinglayerdepth.png>] [9 <./comparingbatchnorm
+.png>] [10] <conv1_weights.png, id=87, 433.62pt x 289.08pt>
+File: conv1_weights.png Graphic file (type png)
+
+<use conv1_weights.png>
+Package pdftex.def Info: conv1_weights.png used on input line 164.
+(pdftex.def)             Requested size: 227.62204pt x 151.74721pt.
+ <Conv1_Activate.png, id=88, 542.025pt x 257.763pt>
+File: Conv1_Activate.png Graphic file (type png)
+
+<use Conv1_Activate.png>
+Package pdftex.def Info: Conv1_Activate.png used on input line 170.
+(pdftex.def)             Requested size: 227.62204pt x 108.24792pt.
+ <original.png, id=89, 780.9978pt x 306.4248pt>
+File: original.png Graphic file (type png)
+
+<use original.png>
+Package pdftex.def Info: original.png used on input line 176.
+(pdftex.def)             Requested size: 227.62204pt x 89.3051pt.
+ [11 <./conv1_weights.png> <./Conv1_Activate.png>]
+<kagglesubmission.png, id=95, 542.5068pt x 491.436pt>
+File: kagglesubmission.png Graphic file (type png)
+
+<use kagglesubmission.png>
+Package pdftex.def Info: kagglesubmission.png used on input line 188.
+(pdftex.def)             Requested size: 227.62204pt x 206.19174pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+[12 <./original.png>] [13 <./kagglesubmission.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 205--208
+
+ []
+
+[14] (./FinalReport_Final.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2287 strings out of 493014
+ 32181 string characters out of 6133351
+ 88863 words of memory out of 5000000
+ 5772 multiletter control sequences out of 15000+600000
+ 32451 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,7n,27p,977b,259s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on FinalReport_Final.pdf (14 pages, 1253360 bytes).
+PDF statistics:
+ 127 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+

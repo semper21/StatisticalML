@@ -1,0 +1,148 @@
+\documentclass[12pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\newtheorem{proof}{PROOF}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\begin{document}
+\noindent \textbf{2 Locally weighted linear regression} \\
+	\noindent Part 1 \\
+	\indent Show that
+	\begin{align*}
+	J(\theta) &= \frac{1}{2}  \sum\limits_{i=1}^{m} w^{(i)} (\theta^{T}x^{(i)}-y^{(i)})^2 = (X\theta - y)^{T}W(X\theta -y).
+	\\
+	A &= X\theta - y = 
+		\begin{bmatrix}
+			(x^{(1)})^{T}\theta \\
+			(x^{(2)})^{T}\theta \\
+			\vdots \\
+			(x^{(m)})^{T}\theta \\
+		\end{bmatrix}
+		-
+		\begin{bmatrix}
+			y^{(1)}\\
+			y^{(2)}\\
+			\vdots \\
+			y^{(m)}
+		\end{bmatrix}
+		=
+		\begin{bmatrix}
+			(x^{(1)})^{T}\theta - y^{(1)} \\
+			(x^{(2)})^{T}\theta - y^{(2)} \\
+			\vdots \\
+			(x^{(m)})^{T}\theta - y^{(m)} 
+		\end{bmatrix}
+	\\
+	W &= \frac{1}{2}  
+	\begin{bmatrix}
+	w^{(1)} \dotsm 0 \\
+	\vdots \ddots \vdots  \\
+	0 \dotsm w^{(m)}
+	\end{bmatrix}
+	\\
+	J(\theta) &= A^{T}WA = 
+		\begin{bmatrix}
+		(x^{(1)})^{T}\theta - y^{(1)} \dotsm (x^{(m)})^{T}\theta - y^{(m)}
+		\end{bmatrix}
+		\frac{1}{2}  
+		\begin{bmatrix}
+		w^{(1)} \dotsm 0 \\
+		\vdots \ddots \vdots  \\
+		0 \dotsm w^{(m)}
+		\end{bmatrix}
+		\begin{bmatrix}
+		(x^{(1)})^{T}\theta - y^{(1)} \\
+		\vdots\\
+		(x^{(m)})^{T}\theta - y^{(m)}
+		\end{bmatrix} \\
+		&=  \frac{1}{2}\sum\limits_{i=1}^{m} w^{(i)} (\theta^{T}x^{(i)}-y^{(i)})^2
+	\end{align*}
+	
+	\noindent Part 2
+	\begin{align*}
+	J(\theta) &= (X\theta - y)^{T}W(X\theta -y)\\
+	&= (X^{T}\theta^{T}-y^{T})(WX\theta - Wy)\\
+	&= (\theta^{T}X^{T}WX\theta - \theta^{T}X^{T}Wy - y^{T}WX\theta + y^{T}Wy)
+	\end{align*}
+	
+	\begin{center}
+	%check if this part is correct
+	Because $(\theta^{T}X^{T}W)$ and $y$ are 1 x $m$ and $m$ x 1, respectively, $\theta^{T}X^{T}Wy =  y^{T}WX\theta$.
+	\end{center}
+
+	\begin{align*}
+	\frac{dJ(\theta)}{d\theta} 
+	&=\frac{d}{d\theta}(\theta^{T}X^{T}WX\theta - 2(\theta^{T}X^{T}Wy) + y^{T}Wy)\\
+	&=X^{T}WX\theta - 2X^{T}Wy + X^{T}WX\theta \\
+	&= 2X^{T}WX\theta - 2X^{T}Wy\\
+	\end{align*}
+	\begin{center}
+	To find $\theta$ which minimizes $J(\theta)$, we set $2X^{T}WX\theta - 2X^{T}Wy = 0$ 
+	and get
+	\end{center}
+	\begin{align*}
+	\theta = (X^{T}WX)^{-1}X^{T}Wy
+	\end{align*}
+
+	\noindent  Part 3
+
+	\begin{algorithm}
+		\caption{Calculating $\theta$ by Batch Gradient Descent}
+		\begin{algorithmic}
+			\State {\em Input}: Data matrix $X \in m\times d+1$, vector $y\in m\times 1$, learning rate $\alpha\in \mathbb{R}$, input vector $x\in\mathbb{R}^{d+1}$\\
+			
+			\State $w\gets m\times n$ zeros matrix
+			\State $\theta\gets d\times 1$ zeros matrix
+			\State $grad\gets d\times 1$ zeros matrix\\
+			\For {$j=0$ to $m$}
+			\State $w_j^{(j)}\gets\frac{(x-X^{(j)})^T(x-X^{(j)})}{2length(x)^2}$
+			\EndFor\\
+			\For {$j=0$ to $5000$} \Comment{arbitrary number of iterations}
+			\State $grad\gets\frac{X^Tw(X\theta-y)}{m}$
+			\State $\theta\gets\theta-\alpha*grad$
+			\EndFor\\
+			\State \Return $\theta$
+		\end{algorithmic}
+	\end{algorithm}
+		
+	
+	Locally weighted linear regression is a non-parametric method.\\
+	
+	
+	\noindent \textbf{3 Properties of the linear regression estimator} \\
+	\noindent Part 1\\
+	\indent Show that $E(\theta) = \theta^{*}$.\\
+	\indent Normal equation states:
+	$X^{T}X\theta = X^{T}y.$\\
+	\begin{align*}
+	\therefore
+	(X^{T}X)^{-1}(X^{T}X\theta) &= (X^{T}X)^{-1}X^{T}y\\
+	I\theta &= \theta = (X^{T}X)^{-1}X^{T}y\\
+	if (X^{T}X)^{-1}X^{T} &= A,	\\
+	E(\theta) &= E(Ay) = AE(y)\\
+	\end{align*}
+ 	\indent And since $y$ is normally distributed, $\epsilon = 0$ \indent $ \therefore y = \theta^{T}x$\\
+ 	\begin{center}
+	By this definition, $E(y) = X\theta^{*}$\\
+	\end{center}
+	\begin{align*}	
+	\therefore E(\theta) &= AX\theta^{*}\\
+	&= (X^{T}X)^{-1}X^{T}X\theta^{*}\\
+	&= I\theta^{*}\\
+	&= \theta^{*}
+	\end{align*}
+	\noindent Part 2\\
+	\indent Show that $Var(\theta) = (X^{T}X)^{-1}\sigma^{2}$.\\
+	\indent From Part 1, 
+	\begin{align*}
+	\theta &= (X^{T}X)^{-1}X^{T}y\\
+	if A &= (X^{T}X)^{-1}X^{T},	\\
+	Var(\theta) &= Var(Ay) = AVar(y)A^{T} = (X^{T}X)^{-1}X^{T}Var(y)((X^{T}X)^{-1}X^{T})^{T}\\
+	&= (X^{T}X)^{-1}X^{T}\sigma^{2}I((X^{T}X)^{-1}X^{T})^{T}\\
+	(A^{T}B^{T} = (BA)^{T})	\\
+	\therefore	&= \sigma^{2}I (X^{T}X)^{-1}((X^{T}X)^{-1}X^{T}X)^{T}\\
+	&= \sigma^{2}(X^{T}X)^{-1}
+	\end{align*}
+\end{document}
